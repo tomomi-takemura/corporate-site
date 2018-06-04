@@ -164,6 +164,7 @@ header{
     .pc_navi{
       display: none;
     }
+
   }
   // max-width: 550px
   
@@ -349,6 +350,18 @@ header{
 
 }
 // #news_area
+
+@media (max-width: 550px) {
+    .pc_sidemenu{
+      display: none;
+    }
+  }
+
+
+
+
+
+
 
 footer{
 

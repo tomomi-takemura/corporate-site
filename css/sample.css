@@ -88,6 +88,8 @@ header {
 
   @media (max-width: 550px) {
     header .pc_navi {
+      display: none; }
+    header .pc_sidemenu {
       display: none; } }
 
 .sp_navi_li {
@@ -188,6 +190,9 @@ header {
         display: inline;
         margin-bottom: 0px; } }
 
+@media (max-width: 550px) {
+  .pc_sidemenu {
+    display: none; } }
 footer {
   background-color: #42b9d0;
   color: #fff;
